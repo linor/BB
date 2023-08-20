@@ -1,0 +1,4 @@
+#define X_GYRO_OFFSET 120
+#define Y_GYRO_OFFSET -124
+#define Z_GYRO_OFFSET -36
+#define Z_ACCEL_OFFSET 608

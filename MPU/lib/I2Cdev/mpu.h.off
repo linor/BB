@@ -1,0 +1,15 @@
+#ifndef mpu_h
+#define mpu_h
+
+#include <Arduino.h>
+#include "constants.h"
+#include "I2CDev.h"
+#include "MPU6050_6Axis_MotionApps20.h"
+
+void mpu_setup();
+void mpu_loop();
+
+extern float pitch;
+extern float roll;
+
+#endif
